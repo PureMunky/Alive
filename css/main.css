@@ -12,7 +12,14 @@ h1, h2, h3, h4, h5 {
   color: #EFEFEF;
 }
 
+.body {
+  min-width: 1000px;
+  max-width: 1200px;
+  background-color: #FEFEFE;
+}
+
 .header {
   width: 100%;
   padding: 50px 0px;
+  background-color: #223366;
 }
