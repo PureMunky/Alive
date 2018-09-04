@@ -1,0 +1,17 @@
+body {
+  background-color: #AAA;
+  color: #333;
+}
+
+h1, h2, h3, h4, h5 {
+  width: 100%;
+  margin: 0px;
+  margin-bottom: 50px;
+  padding: 0px;
+  text-align: center;
+}
+
+.header {
+  width: 100%;
+  margin: 50px 0px;
+}
