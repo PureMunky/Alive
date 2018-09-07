@@ -1,7 +1,7 @@
 (function (win) {
-  var codeEditor = win.getElementById('code');
-  var outputPanel = win.getElementById('output');
-  var commitButton = win.getElementById('btnCommit');
+  var codeEditor = win.document.getElementById('code');
+  var outputPanel = win.document.getElementById('output');
+  var commitButton = win.document.getElementById('btnCommit');
   
   commitButton.onclick = function () {
     outputPanel.innerHTML = codeEditor.innerHTML;
