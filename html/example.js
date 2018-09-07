@@ -4,9 +4,19 @@
   var commitButton = win.document.getElementById('btnCommit');
   
   commitButton.onclick = function () {
-    outputPanel.innerHTML = codeEditor.innerHTML;
+    codeEditor.innerHTML;
   };
   
   outputPanel.innerHTML = 'output test';
   codeEditor.innerHTML = 'enter code here';
 }(window));
+
+var alive = (function (){
+  function ingest(code) {
+  	eval(code);  
+  }
+  
+  return {
+    ingest: ingest
+  };
+}());
