@@ -1,0 +1,17 @@
+{
+    "name": "alive_www",
+    "version": "1.0.0",
+    "description": "Alive Main Site",
+    "author": {
+        "name": "Phil Corbett",
+        "email": "corbett.phil@gmail.com",
+        "url": "https://philcorbett.net"
+    },
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js"
+    },
+    "dependencies": {
+        "express": "^4.16.3"
+    }
+}
